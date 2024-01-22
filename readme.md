@@ -9,12 +9,6 @@ https://21102158.kelasmm3.cloud/KSUCatalog/
 ![ss](asset/ss2.png)
 ![ss](asset/ss3.png)
 
-## Admin Account
-| Level |  Username | Password |
-|:-----:|:---------:|---------:|
-| Admin |  admin    | admin    |
-| User  |  customer | customer |
-
 ## Sistem Requirement
 - CodeIgniter
 - Database MySQL
