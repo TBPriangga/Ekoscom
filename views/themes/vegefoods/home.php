@@ -114,7 +114,7 @@
                 <!-- <span class="subheading">Featured Products</span> -->
                 <h2 class="mb-4">PRODUK KAMI</h2>
 				
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisi orci.</p>
+                <p>Dengan setiap gigitan, rasakan kelezatan alami dari Banyumas yang terjaga dengan cermat oleh para petani berdedikasi kami. Mari bersama-sama menjaga kesehatan dan keberlanjutan dengan memilih produk lokal yang berkualitas.</p>
             </div>
         </div>
     </div>
@@ -204,7 +204,7 @@
             <div class="col-md-7 heading-section ftco-animate text-center">
                 <!-- <span class="subheading">Testimony</span> -->
                 <h2 class="mb-4">TESTIMONI PELANGGAN</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisi orci. Vestibulum vestibulum fermentum dui, vitae ullamcorper ipsum imperdiet id.</p>
+                <p>Percayakan kebutuhan Anda kepada kami dan rasakan perbedaan yang sejati. Dari layanan pelanggan yang ramah hingga produk berkualitas tinggi, kami selalu berkomitmen untuk memberikan pengalaman yang luar biasa. Baca testimonial dari pelanggan setia kami yang telah merasakan kepuasan dan kepercayaan dalam setiap transaksi.</p>
             </div>
         </div>
         <div class="row ftco-animate">
@@ -220,15 +220,14 @@
                                 </span>
                             </div> -->
                             <div class="text text-center">
-                                <p class="mb-5 pl-4 line"><?=$testi['message'];?></p>
+                                <p class="mb-5 pl-4 line"><?=$testi['testimoni'];?></p>
                                 <p class="name"><?=$testi['name'];?></p>
-                                <span class="position"><?=$testi['job'];?></span>
+                                <span class="position"><?=$testi['pekerjaan'];?></span>
                             </div>
                         </div>
                     </div>
                     <?php endforeach;?>
                 </div>
-
             </div>
         </div>
     </div>

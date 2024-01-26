@@ -28,8 +28,7 @@
                     </div>
                 </div>
                 <div class="pb-md-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisi orci. Vestibulum vestibulum fermentum dui, vitae ullamcorper ipsum imperdiet id. Nunc ligula metus, tristique sit amet ex sit amet, scelerisque congue nibh. In eget elit dolor. Donec id pellentesque velit, non porta magna. In id sapien augue. Etiam at lectus ut mi vehicula suscipit.</p>
-                    <p>Curabitur id elit at libero auctor ornare finibus porttitor dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis sem nisl. Donec aliquam lorem eu sapien pellentesque, non semper dui maximus. Etiam eu metus a odio tincidunt tincidunt. Mauris blandit magna nulla, et ultrices tellus fermentum sit amet.</p>
+                    <p>Dengan berbelanja di Ekoscom, Anda tidak hanya mendukung pertanian lokal di Banyumas, tetapi juga merasakan sensasi alami dan autentik dari setiap sayuran yang Anda pilih. Mulai dari sayuran hijau hingga buah-buahan segar, kami menyediakan berbagai produk berkualitas tinggi yang dikemas dan dikirim dengan hati-hati langsung ke pintu Anda.</p>
                     <p><a href="<?=base_url('public/product');?>" class="btn btn-primary">Shop now</a></p>
                 </div>
             </div>
@@ -100,13 +99,13 @@
     </div>
 </section>
 
-<section class="ftco-section testimony-section">
+<section class="ftco-section testimony-section" style="margin-top:-95px;">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
                 <!-- <span class="subheading">Testimony</span> -->
                 <h2 class="mb-4">TESTIMONI PELANGGAN</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisi orci. Vestibulum vestibulum fermentum dui, vitae ullamcorper ipsum imperdiet id.</p>
+                <p>Percayakan kebutuhan Anda kepada kami dan rasakan perbedaan yang sejati. Dari layanan pelanggan yang ramah hingga produk berkualitas tinggi, kami selalu berkomitmen untuk memberikan pengalaman yang luar biasa. Baca testimonial dari pelanggan setia kami yang telah merasakan kepuasan dan kepercayaan dalam setiap transaksi.</p>
             </div>
         </div>
         <div class="row ftco-animate">
@@ -116,15 +115,15 @@
                     <div class="item">
                         <div class="testimony-wrap p-4 pb-5">
                             <!-- <div class="user-img mb-5"
-								style="background-image: url(<?=base_url().'views/themes/'.theme_active().'/';?>images/person_1.jpg)">
-								<span class="quote d-flex align-items-center justify-content-center">
-									<i class="icon-quote-left"></i>
-								</span>
-							</div> -->
+                                style="background-image: url(<?=base_url().'views/themes/'.theme_active().'/';?>images/person_1.jpg)">
+                                <span class="quote d-flex align-items-center justify-content-center">
+                                    <i class="icon-quote-left"></i>
+                                </span>
+                            </div> -->
                             <div class="text text-center">
-                                <p class="mb-5 pl-4 line"><?=$testi['message'];?></p>
+                                <p class="mb-5 pl-4 line"><?=$testi['testimoni'];?></p>
                                 <p class="name"><?=$testi['name'];?></p>
-                                <span class="position"><?=$testi['job'];?></span>
+                                <span class="position"><?=$testi['pekerjaan'];?></span>
                             </div>
                         </div>
                     </div>
@@ -134,6 +133,7 @@
         </div>
     </div>
 </section>
+
 
 <section class="ftco-section bg-light">
     <div class="container">

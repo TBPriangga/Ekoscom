@@ -169,12 +169,23 @@ if (!function_exists('cartlist')){
 * Get Testimonial
 */
 if (!function_exists('testi')){
-	function testi(){
-		$CI =& get_instance();
-		$CI->db->order_by('idtestimoni', 'asc');
-		return $CI->db->get_where('testimonial',['status'=>'Yes'])->result_array();
-	}
+    function testi(){
+        $api_url = 'https://21102155.kelasmm1.cloud/backend_ekoscom/api/member';
+        
+        // Menggunakan cURL untuk mengambil data dari API
+        $ch = curl_init($api_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        // Mengubah data JSON menjadi array
+        $data = json_decode($result, true);
+
+        // Mengembalikan data testimonial
+        return $data;
+    }
 }
+
 /**
 * Get Pembayaran
 */
