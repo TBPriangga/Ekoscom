@@ -1,9 +1,6 @@
 # Penjualan Hasil Pertanian
 Website penjualan hasil pertanian dengan menggunakan framework CodeIgniter ini memiliki tampilan yang sederhana dan fitur yang mampu berfungsi dengan baik.
 
-Untuk Mengakses Websitenya. 
-https://21102158.kelasmm3.cloud/KSUCatalog/
-
 Link GitHub Back End.
 https://github.com/TBPriangga/backend_ekoscom.git
 
